@@ -24,8 +24,8 @@ const MetaPreview = ({ generatedCode, isModalOpen, setIsModalOpen }) => {
                     <span onClick={() => setIsModalOpen(false)} className="absolute top-[5px] right-[5px] w-[30px] h-[30px] aspect-square rounded-full  flex justify-center items-center duration-200 cursor-pointer
                  hover:bg-neutral-600 hover:text-white"><i className="fa fa-times text-2xl" aria-hidden="true"></i></span>
                     <h4 className='font-bold text-xl'>Generated Meta Data</h4>
-                    <div className="relative w-2xl h-[500px] rounded">
-                        <div className='w-full h-full overflow-y-scroll no-scrollbar'>
+                    <div className="relative text-[10px] md:text-base max-w-2xl md:h-[500px] h-[200px] rounded-md">
+                        <div className='w-full h-full overflow-y-scroll no-scrollbar rounded'>
                             {
                                 generatedCode
                                     ?

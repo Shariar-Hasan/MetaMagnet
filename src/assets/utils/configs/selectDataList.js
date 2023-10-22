@@ -17,7 +17,6 @@ export const encodingOptions = [
   { value: "text/html; charset=windows-1252", title: "WINDOWS-1252" },
 ];
 export const dayOptions = [
-  { value: "", title: "None" },
   { value: "1 day", title: "1 day" },
   { value: "2 days", title: "2 days" },
   { value: "3 days", title: "3 days" },
@@ -27,6 +26,7 @@ export const dayOptions = [
   { value: "8 days", title: "8 days" },
   { value: "9 days", title: "9 days" },
   { value: "10 days", title: "10 days" },
+  { value: "", title: "None" },
 ];
 export const indexOptions = [
   { value: "index", title: "Yes" },

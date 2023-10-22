@@ -1,6 +1,7 @@
 <div align="center">
 
-![Meta Magnet Logo](./src//assets/images/favicon.png)
+![Meta Magnet Logo](./src/assets/images/favicon.png)
+
 </div>
 
 # Meta Magnet
@@ -12,6 +13,7 @@ Welcome to Meta Magnet, your go-to resource for mastering the art of metadata op
 - **Metadata Optimization**: Learn best practices for optimizing metadata to improve search engine rankings.
 - **SEO Strategies**: Explore advanced SEO techniques tailored for metadata to boost your website's visibility.
 - **Data Enrichment**: Discover methods for enriching your data through metadata, enhancing user experience.
+- **One Click Action**: Create your neccessary meta tags within one single click.
 
 ## Getting Started
 
@@ -19,9 +21,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. **Clone the repository**:
 
-    ```sh
-    git clone https://github.com/your-username/meta-magnet.git
-    ```
+   ```sh
+   git clone https://github.com/your-username/meta-magnet.git
+   ```
 
 2. **Install dependencies**:
 
@@ -50,15 +52,8 @@ We welcome contributions from the community! If you'd like to contribute to Meta
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ---
 
 **Meta Magnet** - Enhancing Web Visibility through Metadata Optimization
-
-
-```
-
-Replace `your-username` with your actual GitHub username, and customize the badges, feature list, installation instructions, and other sections as per your project's requirements. Also, update the license file (`LICENSE`) with the correct license information for your project.
-```

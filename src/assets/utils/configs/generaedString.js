@@ -12,16 +12,15 @@ export const generateTheString = (data) => {
     title,
     url,
   } = data;
-  return `
-<!-- Primary Meta Tags -->
+  return `<!-- Primary Meta Tags -->
 <meta name="title" content="${title}">
 <meta name="description" content="${description}">
 <meta name="keywords" content="${keywords}">
 <meta name="language" content="${language}">
-${revisitAfter ? `<meta name="revisit-after" content="${revisitAfter}">` : ""}
-${author ? `<meta name="author" content="${author}">` : ""}
 <meta name="robots" content="${index + "," + follow}">
 <meta http-equiv="Content-Type" content="${contentType}">
+${revisitAfter ? `<meta name="revisit-after" content="${revisitAfter}">` : ""}
+${author ? `<meta name="author" content="${author}">` : ""}
 
 <!--For Open Graph / Facebook -->
 <meta property="og:type" content="website" />
@@ -35,9 +34,8 @@ ${author ? `<meta name="author" content="${author}">` : ""}
 <meta property="twitter:url" content="${url || "www.Your-site-link.com"}" />
 <meta property="twitter:title" content="${title}" />
 <meta property="twitter:description" content="${description}" />
-<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+<meta property="twitter:image" content="${image || "replace-with-your-own-img-link.jpg"}" />
 
 <!--This Meta Tags are Generated with https://metamagnet.netlify.app -->
-
 `;
 };
