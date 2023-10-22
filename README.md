@@ -56,9 +56,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Meta Magnet** - Enhancing Web Visibility through Metadata Optimization
-
-
-```
-
-Replace `your-username` with your actual GitHub username, and customize the badges, feature list, installation instructions, and other sections as per your project's requirements. Also, update the license file (`LICENSE`) with the correct license information for your project.
-```
