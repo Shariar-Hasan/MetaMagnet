@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 const StarTheProject = () => {
     return (
         <div className="py-5 text-center">
