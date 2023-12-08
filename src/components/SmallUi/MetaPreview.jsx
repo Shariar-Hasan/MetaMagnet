@@ -13,13 +13,14 @@ const MetaPreview = ({ generatedCode, isModalOpen, setIsModalOpen }) => {
         })
     }
     return (
-        <div className={`duration-500 transition-all z-10 w-screen h-screen fixed top-0 left-0
+        <div className={`duration-500 transition-all w-screen h-screen z-[10] fixed top-0 left-0
         flex justify-center items-center ${isModalOpen ? "visible" : "invisible"}
         `}>
+            <span className={` fixed top-0 left-0 w-screen h-screen ${isModalOpen ? "visible opacity-60" : "invisible opacity-0"}`}></span>
             <span
                 className={`absolute top-0 left-0 w-full h-full  z-[11] bg-black ${isModalOpen ? "bg-opacity-70 visible" : "invisible bg-opacity-0 "}`}
                 onClick={() => setIsModalOpen(false)}></span>
-            <div className={` duration-500 transition-all  z-[12] ${isModalOpen ? "translate-y-0 scale-100 opacity-100 visible " : "translate-y-[1000px] scale-0 opacity-0 invisible"}`}>
+            <div className={` duration-500 transition-all  z-[100] ${isModalOpen ? "translate-y-0 scale-100 opacity-100 visible " : "translate-y-[1000px] scale-0 opacity-0 invisible"}`}>
                 <Box>
                     <span onClick={() => setIsModalOpen(false)} className="absolute top-[5px] right-[5px] w-[30px] h-[30px] aspect-square rounded-full  flex justify-center items-center duration-200 cursor-pointer
                  hover:bg-neutral-600 hover:text-white"><i className="fa fa-times text-2xl" aria-hidden="true"></i></span>
@@ -48,7 +49,7 @@ const MetaPreview = ({ generatedCode, isModalOpen, setIsModalOpen }) => {
                     </span>
                 </Box>
             </div>
-        </div>
+        </div >
     )
 }
 
