@@ -6,14 +6,19 @@
 
 # Meta Magnet
 
-Welcome to Meta Magnet, your go-to resource for mastering the art of metadata optimization and enhancing web visibility.
+Welcome to Meta Magnet, your FOSS realtime build of meta data for your website.
+
+<div align="center">
+
+![Front Page View of the Site](https://i.ibb.co/6Y64sTb/screencapture-hms-site-netlify-app-profile-2024-02-21-22-38-06.png)
+
+</div>
 
 ## Features
 
-- **Metadata Optimization**: Learn best practices for optimizing metadata to improve search engine rankings.
-- **SEO Strategies**: Explore advanced SEO techniques tailored for metadata to boost your website's visibility.
-- **Data Enrichment**: Discover methods for enriching your data through metadata, enhancing user experience.
-- **One Click Action**: Create your neccessary meta tags within one single click.
+- **Metadata Generation**: You can generate html metadata in real time.
+- **Support**: MetaMagnet has support for opengraph & twitter card.
+- **Hadny User interface**: Metamagnet provides easy to use User Interface to fillup the form.
 
 ## Getting Started
 
