@@ -10,14 +10,15 @@ Welcome to Meta Magnet, your FOSS realtime build of meta data for your website.
 
 <div align="center">
 
-![Front Page View of the Site](https://i.ibb.co/6Y64sTb/screencapture-hms-site-netlify-app-profile-2024-02-21-22-38-06.png)
+![Front Page View of the Site](https://s9.gifyu.com/images/SFvj6.gif)
 
 </div>
 
 ## Features
 
 - **Metadata Generation**: You can generate html metadata in real time.
-- **Support**: MetaMagnet has support for opengraph & twitter card.
+- **Quick Popup**: Instantly popup the generated metadata.
+- **Support**: MetaMagnet has support for Opengraph/Facebook & Twitter.
 - **Hadny User interface**: Metamagnet provides easy to use User Interface to fillup the form.
 
 ## Getting Started
